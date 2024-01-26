@@ -1,8 +1,4 @@
-from delete_data import delete_row
-from change_data import change_row
-from add_data import add_row
 from print_data import print_file
-from choice_file import choice_number_file
 
 def copy_data():
     origin_file = int(input("Введите номер файла, из которого хотите скопировать строку: "))
